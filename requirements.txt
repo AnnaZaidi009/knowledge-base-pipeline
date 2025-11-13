@@ -1,0 +1,44 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# LangChain (simplified to avoid conflicts)
+langchain-text-splitters
+
+# Vector Database (without fastembed to avoid conflicts)
+qdrant-client
+
+# Embeddings
+sentence-transformers
+
+# Data Validation
+pydantic
+pydantic-settings
+
+# Database
+psycopg2-binary
+sqlalchemy
+
+# Environment Configuration
+python-dotenv
+
+# Utilities
+aiofiles
+python-multipart
+
+# LLM
+google-generativeai
+
+# Core dependencies
+numpy
+typing-extensions
+
+# Frontend
+streamlit
+
+# Testing
+pytest
+pytest-cov
+pytest-asyncio
+httpx
+
